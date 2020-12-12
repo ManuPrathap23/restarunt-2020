@@ -1,0 +1,21 @@
+<%- include("header") -%>
+<div id="log">
+  <h2>Login</h2>
+  <div class=" card">
+    <div class="card-body">
+      <form action="/login" method="POST">
+        <div class="mb-3">
+          <label for="username" class="form-label">Enter UserName</label>
+          <input type="text" class="form-control"  name="username">
+        </div>
+        <div class="mb-3">
+          <label for="password" class="form-label">Enter password</label>
+          <input type="text" class="form-control"  name="password">
+        </div>
+        <button type="submit" class="btn btn-success">Login</button>
+
+      </form>
+    </div>
+  </div>
+
+</div>
